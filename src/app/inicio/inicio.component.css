@@ -1,0 +1,151 @@
+    .imagenh {
+        display: none;
+    }
+    
+    .imagenv {
+        display: block;
+    }
+    
+    .bannertitle {
+        margin-top: 160px !important;
+        text-shadow: 4px 4px 4px #aaa;
+        font-weight: bold;
+    }
+    
+    .capsulaazul {
+        background-color: #003768 !important;
+    }
+    
+    .capsularoja {
+        background-color: #ed1c24 !important;
+    }
+    
+    .subtitulo {
+        text-shadow: 4px 4px 4px #aaa;
+    }
+    
+    .factores {
+        padding-bottom: 15px;
+    }
+    
+    .tarjeta {
+        vertical-align: middle;
+        text-align: justify;
+        max-width: 22rem;
+        float: left;
+        margin: 10px;
+        height: auto;
+    }
+    
+    .boton_asesor {
+        margin-top: 700px;
+        text-align: center;
+    }
+    
+    .pvp {
+        text-decoration: line-through;
+        color: grey;
+        text-align: center;
+    }
+    
+    .precio {
+        text-align: center;
+        font-weight: bold;
+        font-size: x-large;
+    }
+    
+    .oferta {
+        text-align: center;
+        border: solid red 1px;
+        border-radius: 10px;
+        color: white;
+        background-color: red;
+        font-weight: bold;
+    }
+    
+    .promo {
+        font-size: 35PX;
+        color: white;
+        text-align: center;
+        font-weight: bolder;
+        background-color: red;
+        border: solid 4px white;
+        text-shadow: 4px 4px 4px gray;
+        border-radius: 35px;
+        box-shadow: 6px 6px 6px gray;
+        padding: 5px;
+    }
+    
+    .formulario {
+        background-color: #0C4A7C;
+        padding: 10px;
+    }
+    
+    .todosprod {
+        text-shadow: 4px 4px 4px #aaa;
+        font-size: xx-large;
+        box-shadow: 6px 6px 6px gray;
+        border-radius: 20px;
+    }
+    
+    .ng-invalid.ng-touched:not(form) {
+        border: 2px solid red;
+    }
+    
+    @media screen and (min-width: 500px) {
+        .banner {
+            font-size: 40px;
+            text-shadow: 4px 4px 4px #aaa;
+            height: 600px;
+        }
+        .bannertitle {
+            margin-top: 0px !important;
+            font-size: 100px;
+            text-shadow: 4px 4px 4px #aaa;
+        }
+        .boton {
+            width: 400px;
+            height: 80px;
+            font-size: 40px;
+            border-radius: 10px;
+        }
+        .imagenh {
+            display: block;
+        }
+        .imagenv {
+            display: none;
+        }
+        .tarjeta {
+            vertical-align: middle;
+            text-align: justify;
+            max-width: 20rem;
+            float: left;
+            margin: 10px;
+            height: 17rem;
+        }
+        .boton_asesor {
+            margin-top: 600px;
+        }
+    }
+    
+    @media screen and (min-width: 1100px) {
+        .banner {
+            font-size: 50px;
+            text-shadow: 4px 4px 4px #aaa;
+            margin: 10px;
+        }
+        .bannertitle {
+            font-size: 120px;
+            text-shadow: 4px 4px 4px #aaa;
+            margin: 10px;
+        }
+        .factores {
+            margin-top: 270px !important;
+        }
+        .promo {
+            font-size: 70px;
+        }
+        .boton_asesor {
+            margin-top: 300px;
+        }
+    }

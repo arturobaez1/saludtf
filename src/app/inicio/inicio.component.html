@@ -1,0 +1,197 @@
+<div class="card bg-dark banner" style="font-family: Rubik;">
+    <img src="assets/banner11.jpg" class="card-img imagenh" alt="Respaldo familiar">
+    <img src="assets/banner-vert.jpg" class="card-img imagenv" alt="Respaldo familiar">
+    <div class="card-img-overlay">
+        <h2 class="card-title bannertitle titulo" style=" color: white; margin: 5px; font-weight: bold;">4Life<span> <sub>®</sub> </span></h2>
+        <p class="card-text subtitulo" style="margin: 5px; color: white;">Llevando Transfer Factor <br>al Mundo</p>
+        <br>
+        <a href="https://api.whatsapp.com/send?phone=+573043758916&text=Hola quiero ampliar la información que vi en Saludtf.com" class="btn btn-danger boton" role="button">Ordena Ahora</a>
+
+    </div>
+</div>
+
+
+<div class="container factores" style="margin: 20px; max-width: 99%;">
+    <h3>¿Cómo ayuda 4Life Transfer Factor a respaldar las funciones del sistema inmunitario?</h3>
+    <p style="text-align: justify;">Los factores de transferencia son unas de las moléculas más particulares de tu cuerpo. Ellas transportan mensajes importantes a las células inmunitarias. Los factores de transferencia ayudan al sistema inmunitario a:</p>
+
+    <div class="card text-white bg-warning mb-auto tarjeta">
+        <div class="card-header">
+            <h4>Reconocer</h4>
+        </div>
+        <div class="card-body">
+            <p class="card-text">Los factores de transferencia ayudan a las células del sistema inmunitario a identificar rápidamente las amenazas potenciales.</p>
+        </div>
+    </div>
+
+    <div class="card text-white bg-primary mb-auto capsulaazul tarjeta">
+        <div class="card-header">
+            <h4>Responder</h4>
+        </div>
+        <div class="card-body">
+            <p class="card-text">Los factores de transferencia ayudan a agilizar la respuesta del sistema inmunitario ante posibles amenazas después de que han sido identificadas.</p>
+        </div>
+    </div>
+
+    <div class="card text-white bg-danger mb-auto capsularoja tarjeta">
+        <div class="card-header">
+            <h4>Recordar</h4>
+        </div>
+        <div class="card-body">
+            <p class="card-text">Los factores de transferencia ayudan a recordar la composición particular de las amenazas que encuentra tu sistema inmunitario, para que la próxima vez que tu cuerpo tenga que enfrentarlas sepa exactamente qué son y cómo combatirlas.</p>
+        </div>
+    </div>
+
+</div>
+
+<a role="button" href="https://api.whatsapp.com/send?phone=+573043758916&text=Hola quiero recibir asesoría especializada" class="btn btn-success btn-lg btn-block boton_asesor"><i class=" fab fa-whatsapp "></i> Contacta a un asesor especializado</a>
+
+<div class="jumbotron " style="background-color:white">
+    <h1 class="display-4 " style="font-weight: bold; text-align: center;"> Compra Productos 100% Originales</h1>
+    <p class="lead " style="font-weight: bold; text-align: center;">Adquiere tus factores de Transferencia con Descuentos Especiales y con Envíos a todo el País</p>
+    <hr class="my-4 ">
+
+    <div class="card-deck m-5">
+        <div class="card" *ngFor="let producto of productos | slice:0:3; let i=index;">
+            <img src="{{ producto.imagen }}" class="card-img-top" alt="{{ producto.nombre }}">
+            <div class="card-body">
+                <h3 class="card-title text-center">{{ producto.nombre }}</h3>
+                <p class="card-text pvp">{{ producto.pvp }}</p>
+                <p class="oferta">Oferta!</p>
+                <p class="card-text precio">{{ producto.precio }}</p>
+                <p class="card-text text-justify">{{ producto.caracteristicas1 }}</p>
+                <p class="card-text text-justify">{{ producto.caracteristicas2 }}</p>
+                <p class="card-text text-justify">{{ producto.caracteristicas3 }}</p>
+                <p class="card-text text-justify">{{ producto.caracteristicas4 }}</p>
+            </div>
+            <a class="btn btn-primary btn-lg btn-block" href="https://api.whatsapp.com/send?phone=+573043758916&text=Hola quiero ampliar la información de {{ producto.nombre }}" role="button ">Ordena aqui</a>
+        </div>
+    </div>
+
+    <div class="card-deck m-5">
+        <div class="card" *ngFor="let producto of productos | slice:14:17; let i=index;">
+            <img src="{{ producto.imagen }}" class="card-img-top" alt="{{ producto.nombre }}">
+            <div class="card-body">
+                <h3 class="card-title text-center">{{ producto.nombre }}</h3>
+                <p class="card-text pvp">{{ producto.pvp }}</p>
+                <p class="oferta">Oferta!</p>
+                <p class="card-text precio">{{ producto.precio }}</p>
+                <p class="card-text text-justify">{{ producto.caracteristicas1 }}</p>
+                <p class="card-text text-justify">{{ producto.caracteristicas2 }}</p>
+                <p class="card-text text-justify">{{ producto.caracteristicas3 }}</p>
+                <p class="card-text text-justify">{{ producto.caracteristicas4 }}</p>
+            </div>
+            <a class="btn btn-primary btn-lg btn-block" href="https://api.whatsapp.com/send?phone=+573043758916&text=Hola quiero ampliar la información de {{ producto.nombre }}" role="button ">Ordena aqui</a>
+        </div>
+    </div>
+
+    <div class="card-deck m-5">
+        <div class="card" *ngFor="let producto of productos | slice:40:43; let i=index;">
+            <img src="{{ producto.imagen }}" class="card-img-top" alt="{{ producto.nombre }}">
+            <div class="card-body">
+                <h3 class="card-title text-center">{{ producto.nombre }}</h3>
+                <p class="card-text pvp">{{ producto.pvp }}</p>
+                <p class="oferta">Oferta!</p>
+                <p class="card-text precio">{{ producto.precio }}</p>
+                <p class="card-text text-justify">{{ producto.caracteristicas1 }}</p>
+                <p class="card-text text-justify">{{ producto.caracteristicas2 }}</p>
+                <p class="card-text text-justify">{{ producto.caracteristicas3 }}</p>
+                <p class="card-text text-justify">{{ producto.caracteristicas4 }}</p>
+            </div>
+            <a class="btn btn-primary btn-lg btn-block" href="https://api.whatsapp.com/send?phone=+573043758916&text=Hola quiero ampliar la información de {{ producto.nombre }}" role="button ">Ordena aqui</a>
+        </div>
+    </div>
+
+    <div class="m-5">
+        <a class="btn btn-success btn-lg btn-block todosprod" href="# " role="button ">Ver Todos los Productos</a>
+    </div>
+
+    <h2 class="promo">PROMOCIONES DEL MES</h2>
+    <div class="card-deck m-5">
+        <div class="card" *ngFor="let producto of productos | slice:57:60; let i=index;">
+            <img src="{{ producto.imagen }}" class="card-img-top" alt="{{ producto.nombre }}">
+            <div class="card-body">
+                <h3 class="card-title text-center">{{ producto.nombre }}</h3>
+                <p class="card-text pvp">{{ producto.pvp }}</p>
+                <p class="oferta">Oferta!</p>
+                <p class="card-text precio">{{ producto.precio }}</p>
+                <p class="card-text text-justify">{{ producto.caracteristicas1 }}</p>
+                <p class="card-text text-justify">{{ producto.caracteristicas2 }}</p>
+                <p class="card-text text-justify">{{ producto.caracteristicas3 }}</p>
+                <p class="card-text text-justify">{{ producto.caracteristicas4 }}</p>
+            </div>
+            <a class="btn btn-primary btn-lg btn-block" href="https://api.whatsapp.com/send?phone=+573043758916&text=Hola quiero ampliar la información de {{ producto.nombre }}" role="button ">Ordena aqui</a>
+        </div>
+    </div>
+
+    <div class="card-deck m-5">
+        <div class="card" *ngFor="let producto of productos | slice:60:63; let i=index;">
+            <img src="{{ producto.imagen }}" class="card-img-top" alt="{{ producto.nombre }}">
+            <div class="card-body">
+                <h3 class="card-title text-center">{{ producto.nombre }}</h3>
+                <p class="card-text pvp">{{ producto.pvp }}</p>
+                <p class="oferta">Oferta!</p>
+                <p class="card-text precio">{{ producto.precio }}</p>
+                <p class="card-text text-justify">{{ producto.caracteristicas1 }}</p>
+                <p class="card-text text-justify">{{ producto.caracteristicas2 }}</p>
+                <p class="card-text text-justify">{{ producto.caracteristicas3 }}</p>
+                <p class="card-text text-justify">{{ producto.caracteristicas4 }}</p>
+            </div>
+            <a class="btn btn-primary btn-lg btn-block" href="https://api.whatsapp.com/send?phone=+573043758916&text=Hola quiero ampliar la información de {{ producto.nombre }}" role="button ">Ordena aqui</a>
+        </div>
+    </div>
+
+</div>
+
+<div class="alert alert-primary" role="alert" style="background-color: rgb(66, 128, 179); color: white;">
+    <h4 class="alert-heading" style="font-size: 50px;">¿Deseas afiliarte a 4Life?</h4>
+    <p><small style="font-size: 20px;">(Afiliacion tiene un costo de 66000 pesos)</small></p>
+    <p style="font-size: 30px;">Para obtener tu propio código 4life® y acceder a grandes descuentos, promociones y beneficios de por vida </p>
+    <hr>
+    <a href="https://colombia.4life.com/7980950/signup/distributor" target="_blank" class="alert-link" style="color: #7cda24; font-size: 40px;">PRESIONA AQUÍ </a>
+</div>
+
+<form class="m-5 formulario" style="color: white;" novalidate (ngSubmit)="guardar(forma)" #forma="ngForm">
+    <h4 style="text-align: center;">¿Te gustaría recibir información y mantenerte actualizado con nuestras promociones?</h4>
+    <h4 style="text-align: center;">Déjanos tus datos y te mantendremos informado</h4>
+    <hr>
+
+    <div class="form-group row">
+        <label for="Nombre" class="col-sm-3 col-form-label" style="font-size: larger; font-weight: bold;">Nombre Completo*</label>
+        <div class="col-sm-8">
+            <input type="text" class="form-control" id="Nombre" name="nombre" placeholder="Nombre Completo" [(ngModel)]='usuario.nombre' required #nombre="ngModel">
+            <div *ngIf="nombre.errors?.required">
+                <small class="font-weight-bold"> Este campo es requerido</small>
+            </div>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="email" class="col-sm-3 col-form-label" style="font-size: larger; font-weight: bold;">Correo Electrónico*</label>
+        <div class="col-sm-8">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Email" [(ngModel)]='usuario.email' pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required #email="ngModel">
+            <div *ngIf="email.errors?.required">
+                <small class="font-weight-bold"> Este campo es requerido</small>
+            </div>
+            <div *ngIf="email.errors?.pattern">
+                <small class="font-weight-bold">El campo no tiene el formato correo</small>
+            </div>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="mensaje" class="col-sm-3 col-form-label" style="font-size: larger; font-weight: bold;">Mensaje*</label>
+        <div class="col-sm-8">
+            <textarea rows="5" class="form-control" id="mensaje" name="mensaje" placeholder="Mensaje" [(ngModel)]='usuario.mensaje' required #mensaje="ngModel"></textarea>
+            <div *ngIf="mensaje.errors?.required">
+                <small class="font-weight-bold"> Este campo es requerido</small>
+            </div>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary btn-block" style="margin-bottom: 30px; margin-top: 20px;" [disabled]=!forma.valid>Enviar</button>
+</form>
+
+<div class="d-flex justify-content-around">
+    <img src="assets/dsa.png" alt="">
+    <img src="assets/dsef.png" alt="">
+    <img src="assets/nsf.png" alt="">
+    <img src="assets/unpa.png" alt="">
+</div>
