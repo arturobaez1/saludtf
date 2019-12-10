@@ -103,7 +103,7 @@
     </div>
 
     <div class="m-5">
-        <a class="btn btn-success btn-lg btn-block todosprod" href="# " role="button ">Ver Todos los Productos</a>
+        <a class="btn btn-success btn-lg btn-block todosprod" [routerLink]="['/productos']" role="button ">Ver Todos los Productos</a>
     </div>
 
     <h2 class="promo">PROMOCIONES DEL MES</h2>
@@ -125,7 +125,7 @@
     </div>
 
     <div class="card-deck m-5">
-        <div class="card" *ngFor="let producto of productos | slice:60:63; let i=index;">
+        <div class="card" *ngFor="let producto of productos | slice:60:62; let i=index;">
             <img src="{{ producto.imagen }}" class="card-img-top" alt="{{ producto.nombre }}">
             <div class="card-body">
                 <h3 class="card-title text-center">{{ producto.nombre }}</h3>
@@ -143,15 +143,15 @@
 
 </div>
 
-<div class="alert alert-primary" role="alert" style="background-color: rgb(66, 128, 179); color: white;">
+<div class="alert alert-primary" role="alert" style="background-color: rgb(66, 128, 179); color: white; text-align: justify;">
     <h4 class="alert-heading" style="font-size: 50px;">¿Deseas afiliarte a 4Life?</h4>
     <p><small style="font-size: 20px;">(Afiliacion tiene un costo de 66000 pesos)</small></p>
     <p style="font-size: 30px;">Para obtener tu propio código 4life® y acceder a grandes descuentos, promociones y beneficios de por vida </p>
     <hr>
-    <a href="https://colombia.4life.com/7980950/signup/distributor" target="_blank" class="alert-link" style="color: #7cda24; font-size: 40px;">PRESIONA AQUÍ </a>
+    <a href="https://colombia.4life.com/7980950/signup/distributor" target="_blank" class="alert-link" style="color: #7cda24; font-size: 40px;">INSCRIBETE AQUÍ </a>
 </div>
 
-<form class="m-5 formulario" style="color: white;" novalidate (ngSubmit)="guardar(forma)" #forma="ngForm">
+<form class="m-5 formulario" style="color: white;" novalidate (ngSubmit)="guardar(forma)" #forma="ngForm" action=C:\wamp64\www\enviar-correo\formulario.php method="POST">
     <h4 style="text-align: center;">¿Te gustaría recibir información y mantenerte actualizado con nuestras promociones?</h4>
     <h4 style="text-align: center;">Déjanos tus datos y te mantendremos informado</h4>
     <hr>
@@ -189,6 +189,33 @@
     <button type="submit" class="btn btn-primary btn-block" style="margin-bottom: 30px; margin-top: 20px;" [disabled]=!forma.valid>Enviar</button>
 </form>
 
+<!--Start Script de Jquery -->
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+<!--End Script de Jquery -->
+
+<!--Script de Ajax-->
+<script type="text/javascript">
+    function guardar() {
+        var nombre = $("nombre");
+        var email = $("email");
+        var mensaje = $("mensaje");
+
+        $.ajax({
+            url: 'formulario.php',
+            method: 'POST',
+            dataType: 'json',
+            data: {
+                nombre: nombre.val(),
+                email: email.val(),
+                mensaje: mensaje.val(),
+            },
+            success: function(response) {
+                console.log(response);
+            }
+        })
+    }
+</script>
+<!--Script de Ajax-->
 <div class="d-flex justify-content-around">
     <img src="assets/dsa.png" alt="">
     <img src="assets/dsef.png" alt="">

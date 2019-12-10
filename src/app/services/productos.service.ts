@@ -79,18 +79,6 @@ export class ProductosService {
     },
 
 {
-      nombre: 'Premier Pack Plus',
-      pvp: '$614.200,00',
-      precio: '$461.000,00',
-      imagen: 'assets/img/Premier-pack-plus.jpg',
-      caracteristicas1: '• Educa, fortalece y equilibra el sistema inmunitario con la exclusiva Tri-Factor Formula',
-      caracteristicas2: ' • Incrementa la actividad de las células asesinas naturales hasta en un 437%*',
-      caracteristicas3: '• Contiene UltraFactor XF®, OvoFactor®',
-      caracteristicas4: '• Contiene 4Life Transfer Factor® certificado para aumentar el cociente intelectual de tu sistema inmunitario',
-      linea: 'transfer',
-    },
-
-{
       nombre: 'Transfer Factor® Oral Spray',
       pvp: '$117.000,00',
       precio: '$88.000,00',
@@ -163,8 +151,8 @@ export class ProductosService {
 
 {
       nombre: 'Transfer Factor™ RenewAll™',
-      pvp: '$191.500,00',
-      precio: '$144.000,00',
+      pvp: '$84.200,00',
+      precio: '$63.100,00',
       imagen: 'assets/img/RenewAll.jpg',
       caracteristicas1: '• Contiene ingredientes que promueven una piel hermosa',
       caracteristicas2: ' • Incluye sábila, romero, manzanilla y lavanda',
@@ -273,7 +261,7 @@ export class ProductosService {
 {
       nombre: ' Transfer Factor® BCV',
       pvp: '$219.000,00',
-      precio: '$164.000,00',
+      precio: '$168.000,00',
       imagen: 'assets/img/BCV.jpg',
       caracteristicas1: '• Contiene 4Life Transfer Factor® certificado para educar las células inmunitarias*',
       caracteristicas2: ' • Respalda las funciones cardiovasculares y los niveles saludables de colesterol que ya están en un rango normal*',

@@ -3,6 +3,7 @@ import { ProductosService, Producto } from '../services/productos.service';
 import { NgForm } from '@angular/forms';
 
 
+
 @Component({
   selector: 'app-inicio',
   templateUrl: './inicio.component.html',
@@ -29,6 +30,7 @@ export class InicioComponent implements OnInit {
     console.log(forma);
     console.log(forma.value);
     console.log(this.usuario);
+
   }
 
 }
