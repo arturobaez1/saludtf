@@ -1,9 +1,9 @@
 <nav class="navbar navbar-light bg-white">
-    <a itemscope itemtype="http://schema.org/LocalBusiness" itemprop="logo" class="navbar-brand" href="#">
-        <img src="assets/4life-logo.svg" width="100" height="100" alt="4Life">
+    <a class="navbar-brand" href="#">
+        <img src="assets/4life-logo.svg" width="100" height="100" alt="">
     </a>
-    <span itemscope itemtype="http://schema.org/LocalBusiness" itemprop="logo" class="navbar-text">
-            <img src="assets/salud-tf.jpg" width="100" height="100" alt="salud tf"  href="#">
+    <span class="navbar-text">
+            <img src="assets/salud-tf.jpg" width="100" height="100" alt="">
           </span>
 </nav>
 
@@ -32,28 +32,8 @@
     </li>
 </ul>
 
-<h2 class="promo">PROMOCIONES DEL MES</h2>
 <div class="card-deck m-5">
-    <div class="card w-20" *ngFor="let producto of productos|slice:57:62; let i=index;">
-        <img src="{{ producto.imagen }}" class="card-img-top" alt="{{ producto.nombre }}">
-        <div class="card-body">
-            <h3 class="card-title text-center">{{ producto.nombre }}</h3>
-            <p class="card-text pvp">{{ producto.pvp }}</p>
-            <p class="oferta">Oferta!</p>
-            <p class="card-text precio">{{ producto.precio }}</p>
-            <p class="card-text text-justify">{{ producto.caracteristicas1 }}</p>
-            <p class="card-text text-justify">{{ producto.caracteristicas2 }}</p>
-            <p class="card-text text-justify">{{ producto.caracteristicas3 }}</p>
-            <p class="card-text text-justify">{{ producto.caracteristicas4 }}</p>
-        </div>
-        <a class="btn btn-primary btn-lg btn-block" href="https://api.whatsapp.com/send?phone=+573043758916&text=Hola quiero ampliar la información de {{ producto.nombre }}" role="button ">Ordena aqui</a>
-    </div>
-</div>
-
-<h2 class="promo2">TODOS LOS PRODUCTOS DE 4LIFE</h2>
-
-<div class="card-deck m-5">
-    <div class="card w-20" *ngFor="let producto of productos|slice:0:56; let i=index;">
+    <div class="card w-20" *ngFor="let producto of productos|slice:51:56; let i=index;">
         <img src="{{ producto.imagen }}" class="card-img-top" alt="{{ producto.nombre }}">
         <div class="card-body">
             <h3 class="card-title text-center">{{ producto.nombre }}</h3>

@@ -1,9 +1,9 @@
-<div class="card bg-dark banner" style="font-family: Rubik;">
-    <img src="assets/banner11.jpg" class="card-img imagenh" alt="Respaldo familiar">
-    <img src="assets/banner-vert.jpg" class="card-img imagenv" alt="Respaldo familiar">
+<div class="card bg-dark banner" style="font-family: Rubik;" itemscope itemtype="http://schema.org/Product">
+    <img itemprop="image" src="assets/banner11.jpg" class="card-img imagenh" alt="Respaldo familiar">
+    <img itemprop="image" src="assets/banner-vert.jpg" class="card-img imagenv" alt="Respaldo familiar">
     <div class="card-img-overlay">
-        <h2 class="card-title bannertitle titulo" style=" color: white; margin: 5px; font-weight: bold;">4Life<span> <sub>®</sub> </span></h2>
-        <p class="card-text subtitulo" style="margin: 5px; color: white;">Llevando Transfer Factor <br>al Mundo</p>
+        <h2 itemprop="name" class="card-title bannertitle titulo" style=" color: white; margin: 5px; font-weight: bold;">4Life<span> <sub>®</sub> </span></h2>
+        <p itemprop="name" class="card-text subtitulo" style="margin: 5px; color: white;">Llevando Transfer Factor <br>al Mundo</p>
         <br>
         <a href="https://api.whatsapp.com/send?phone=+573043758916&text=Hola quiero ampliar la información que vi en Saludtf.com" class="btn btn-danger boton" role="button">Ordena Ahora</a>
 
@@ -51,52 +51,52 @@
     <p class="lead " style="font-weight: bold; text-align: center;">Adquiere tus factores de Transferencia con Descuentos Especiales y con Envíos a todo el País</p>
     <hr class="my-4 ">
 
-    <div class="card-deck m-5">
+    <div itemscope itemtype="http://schema.org/Product" class="card-deck m-5">
         <div class="card" *ngFor="let producto of productos | slice:0:3; let i=index;">
-            <img src="{{ producto.imagen }}" class="card-img-top" alt="{{ producto.nombre }}">
+            <img itemprop="image" src="{{ producto.imagen }}" class="card-img-top" alt="{{ producto.nombre }}">
             <div class="card-body">
-                <h3 class="card-title text-center">{{ producto.nombre }}</h3>
+                <h3 itemprop="name" class="card-title text-center">{{ producto.nombre }}</h3>
                 <p class="card-text pvp">{{ producto.pvp }}</p>
                 <p class="oferta">Oferta!</p>
-                <p class="card-text precio">{{ producto.precio }}</p>
-                <p class="card-text text-justify">{{ producto.caracteristicas1 }}</p>
-                <p class="card-text text-justify">{{ producto.caracteristicas2 }}</p>
-                <p class="card-text text-justify">{{ producto.caracteristicas3 }}</p>
-                <p class="card-text text-justify">{{ producto.caracteristicas4 }}</p>
+                <p itemprop="price" class="card-text precio">{{ producto.precio }}</p>
+                <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas1 }}</p>
+                <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas2 }}</p>
+                <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas3 }}</p>
+                <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas4 }}</p>
             </div>
             <a class="btn btn-primary btn-lg btn-block" href="https://api.whatsapp.com/send?phone=+573043758916&text=Hola quiero ampliar la información de {{ producto.nombre }}" role="button ">Ordena aqui</a>
         </div>
     </div>
 
-    <div class="card-deck m-5">
+    <div itemscope itemtype="http://schema.org/Product" class="card-deck m-5">
         <div class="card" *ngFor="let producto of productos | slice:14:17; let i=index;">
-            <img src="{{ producto.imagen }}" class="card-img-top" alt="{{ producto.nombre }}">
+            <img itemprop="image" src="{{ producto.imagen }}" class="card-img-top" alt="{{ producto.nombre }}">
             <div class="card-body">
-                <h3 class="card-title text-center">{{ producto.nombre }}</h3>
+                <h3 itemprop="name" class="card-title text-center">{{ producto.nombre }}</h3>
                 <p class="card-text pvp">{{ producto.pvp }}</p>
                 <p class="oferta">Oferta!</p>
-                <p class="card-text precio">{{ producto.precio }}</p>
-                <p class="card-text text-justify">{{ producto.caracteristicas1 }}</p>
-                <p class="card-text text-justify">{{ producto.caracteristicas2 }}</p>
-                <p class="card-text text-justify">{{ producto.caracteristicas3 }}</p>
-                <p class="card-text text-justify">{{ producto.caracteristicas4 }}</p>
+                <p itemprop="price" class="card-text precio">{{ producto.precio }}</p>
+                <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas1 }}</p>
+                <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas2 }}</p>
+                <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas3 }}</p>
+                <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas4 }}</p>
             </div>
             <a class="btn btn-primary btn-lg btn-block" href="https://api.whatsapp.com/send?phone=+573043758916&text=Hola quiero ampliar la información de {{ producto.nombre }}" role="button ">Ordena aqui</a>
         </div>
     </div>
 
-    <div class="card-deck m-5">
+    <div itemscope itemtype="http://schema.org/Product" class="card-deck m-5">
         <div class="card" *ngFor="let producto of productos | slice:40:43; let i=index;">
-            <img src="{{ producto.imagen }}" class="card-img-top" alt="{{ producto.nombre }}">
+            <img itemprop="image" src="{{ producto.imagen }}" class="card-img-top" alt="{{ producto.nombre }}">
             <div class="card-body">
-                <h3 class="card-title text-center">{{ producto.nombre }}</h3>
+                <h3 itemprop="name" class="card-title text-center">{{ producto.nombre }}</h3>
                 <p class="card-text pvp">{{ producto.pvp }}</p>
                 <p class="oferta">Oferta!</p>
-                <p class="card-text precio">{{ producto.precio }}</p>
-                <p class="card-text text-justify">{{ producto.caracteristicas1 }}</p>
-                <p class="card-text text-justify">{{ producto.caracteristicas2 }}</p>
-                <p class="card-text text-justify">{{ producto.caracteristicas3 }}</p>
-                <p class="card-text text-justify">{{ producto.caracteristicas4 }}</p>
+                <p itemprop="price" class="card-text precio">{{ producto.precio }}</p>
+                <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas1 }}</p>
+                <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas2 }}</p>
+                <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas3 }}</p>
+                <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas4 }}</p>
             </div>
             <a class="btn btn-primary btn-lg btn-block" href="https://api.whatsapp.com/send?phone=+573043758916&text=Hola quiero ampliar la información de {{ producto.nombre }}" role="button ">Ordena aqui</a>
         </div>
@@ -107,35 +107,35 @@
     </div>
 
     <h2 class="promo">PROMOCIONES DEL MES</h2>
-    <div class="card-deck m-5">
+    <div itemscope itemtype="http://schema.org/Product" class="card-deck m-5">
         <div class="card" *ngFor="let producto of productos | slice:57:60; let i=index;">
-            <img src="{{ producto.imagen }}" class="card-img-top" alt="{{ producto.nombre }}">
+            <img itemprop="image" src="{{ producto.imagen }}" class="card-img-top" alt="{{ producto.nombre }}">
             <div class="card-body">
-                <h3 class="card-title text-center">{{ producto.nombre }}</h3>
+                <h3 itemprop="name" class="card-title text-center">{{ producto.nombre }}</h3>
                 <p class="card-text pvp">{{ producto.pvp }}</p>
                 <p class="oferta">Oferta!</p>
-                <p class="card-text precio">{{ producto.precio }}</p>
-                <p class="card-text text-justify">{{ producto.caracteristicas1 }}</p>
-                <p class="card-text text-justify">{{ producto.caracteristicas2 }}</p>
-                <p class="card-text text-justify">{{ producto.caracteristicas3 }}</p>
-                <p class="card-text text-justify">{{ producto.caracteristicas4 }}</p>
+                <p itemprop="price" class="card-text precio">{{ producto.precio }}</p>
+                <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas1 }}</p>
+                <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas2 }}</p>
+                <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas3 }}</p>
+                <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas4 }}</p>
             </div>
             <a class="btn btn-primary btn-lg btn-block" href="https://api.whatsapp.com/send?phone=+573043758916&text=Hola quiero ampliar la información de {{ producto.nombre }}" role="button ">Ordena aqui</a>
         </div>
     </div>
 
-    <div class="card-deck m-5">
+    <div itemscope itemtype="http://schema.org/Product" class="card-deck m-5">
         <div class="card" *ngFor="let producto of productos | slice:60:62; let i=index;">
-            <img src="{{ producto.imagen }}" class="card-img-top" alt="{{ producto.nombre }}">
+            <img itemprop="image" src="{{ producto.imagen }}" class="card-img-top" alt="{{ producto.nombre }}">
             <div class="card-body">
-                <h3 class="card-title text-center">{{ producto.nombre }}</h3>
+                <h3 itemprop="name" class="card-title text-center">{{ producto.nombre }}</h3>
                 <p class="card-text pvp">{{ producto.pvp }}</p>
                 <p class="oferta">Oferta!</p>
-                <p class="card-text precio">{{ producto.precio }}</p>
-                <p class="card-text text-justify">{{ producto.caracteristicas1 }}</p>
-                <p class="card-text text-justify">{{ producto.caracteristicas2 }}</p>
-                <p class="card-text text-justify">{{ producto.caracteristicas3 }}</p>
-                <p class="card-text text-justify">{{ producto.caracteristicas4 }}</p>
+                <p itemprop="price" class="card-text precio">{{ producto.precio }}</p>
+                <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas1 }}</p>
+                <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas2 }}</p>
+                <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas3 }}</p>
+                <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas4 }}</p>
             </div>
             <a class="btn btn-primary btn-lg btn-block" href="https://api.whatsapp.com/send?phone=+573043758916&text=Hola quiero ampliar la información de {{ producto.nombre }}" role="button ">Ordena aqui</a>
         </div>
@@ -216,9 +216,3 @@
     }
 </script>
 <!--Script de Ajax-->
-<div class="d-flex justify-content-around">
-    <img src="assets/dsa.png" alt="">
-    <img src="assets/dsef.png" alt="">
-    <img src="assets/nsf.png" alt="">
-    <img src="assets/unpa.png" alt="">
-</div>

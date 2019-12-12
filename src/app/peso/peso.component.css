@@ -1,0 +1,65 @@
+.pvp {
+    text-decoration: line-through;
+    color: grey;
+    text-align: center;
+}
+
+.precio {
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.oferta {
+    text-align: center;
+    border: solid red 1px;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+}
+
+.promo {
+    font-size: 35PX;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    background-color: red;
+    border: solid 4px white;
+    text-shadow: 4px 4px 4px gray;
+    border-radius: 35px;
+    box-shadow: 6px 6px 6px gray;
+    padding: 5px;
+}
+
+.promo2 {
+    font-size: 35PX;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    background-color: #0C4A7C;
+    border: solid 4px white;
+    text-shadow: 4px 4px 4px gray;
+    border-radius: 35px;
+    box-shadow: 6px 6px 6px gray;
+    padding: 5px;
+}
+
+@media( min-width:768px) {
+    .w-20 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%;
+        margin-top: 15px;
+    }
+}
+
+@media( min-width:992px) {
+    .w-20 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 30%;
+        flex: 0 0 30%;
+        max-width: 30%;
+    }
+}
