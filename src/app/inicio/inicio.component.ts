@@ -23,13 +23,10 @@ export class InicioComponent implements OnInit {
 
   ngOnInit() {
     this.productos = this.productosService.getProducto();
-    console.log(this.productos);
+
   }
 
   guardar(forma: NgForm) {
-    console.log(forma);
-    console.log(forma.value);
-    console.log(this.usuario);
 
   }
 

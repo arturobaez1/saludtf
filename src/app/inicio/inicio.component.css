@@ -148,10 +148,16 @@
         .boton_asesor {
             margin-top: 300px;
         }
+        .formulariogoogle {
+            width: 1100px;
+        }
     }
     
     @media screen and (min-width: 1300px) {
         .tarjeta {
             max-width: 27rem;
+        }
+        .formulariogoogle {
+            width: 1300px;
         }
     }

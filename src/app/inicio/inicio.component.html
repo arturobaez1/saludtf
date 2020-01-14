@@ -1,4 +1,4 @@
-<div class="card bg-dark banner" style="font-family: Rubik;" itemscope itemtype="http://schema.org/Product">
+<div class="card bg-dark banner" style="font-family: Rubik;">
     <img itemprop="image" src="assets/banner11.jpg" class="card-img imagenh" alt="Respaldo familiar">
     <img itemprop="image" src="assets/banner-vert.jpg" class="card-img imagenv" alt="Respaldo familiar">
     <div class="card-img-overlay">
@@ -6,7 +6,6 @@
         <p itemprop="name" class="card-text subtitulo" style="margin: 5px; color: white;">Llevando Transfer Factor <br>al Mundo</p>
         <br>
         <a href="https://api.whatsapp.com/send?phone=+573043758916&text=Hola quiero ampliar la información que vi en Saludtf.com" class="btn btn-danger boton" role="button">Ordena Ahora</a>
-
     </div>
 </div>
 
@@ -51,37 +50,47 @@
     <p class="lead " style="font-weight: bold; text-align: center;">Adquiere tus factores de Transferencia con Descuentos Especiales y con Envíos a todo el País</p>
     <hr class="my-4 ">
 
+
     <div itemscope itemtype="http://schema.org/Product" class="card-deck m-5">
+
         <div class="card" *ngFor="let producto of productos | slice:0:3; let i=index;">
             <img itemprop="image" src="{{ producto.imagen }}" class="card-img-top" alt="{{ producto.nombre }}">
             <div class="card-body">
                 <h3 itemprop="name" class="card-title text-center">{{ producto.nombre }}</h3>
-                <p class="card-text pvp">{{ producto.pvp }}</p>
-                <p class="oferta">Oferta!</p>
-                <p itemprop="price" class="card-text precio">{{ producto.precio }}</p>
+                <div itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+                    <p class="card-text pvp">{{ producto.pvp }}</p>
+                    <p class="oferta">Oferta!</p>
+                    <p itemprop="price" class="card-text precio">{{ producto.precio }}</p>
+                </div>
                 <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas1 }}</p>
                 <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas2 }}</p>
                 <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas3 }}</p>
                 <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas4 }}</p>
             </div>
             <a class="btn btn-primary btn-lg btn-block" href="https://api.whatsapp.com/send?phone=+573043758916&text=Hola quiero ampliar la información de {{ producto.nombre }}" role="button ">Ordena aqui</a>
+
         </div>
     </div>
 
+
     <div itemscope itemtype="http://schema.org/Product" class="card-deck m-5">
+
         <div class="card" *ngFor="let producto of productos | slice:14:17; let i=index;">
             <img itemprop="image" src="{{ producto.imagen }}" class="card-img-top" alt="{{ producto.nombre }}">
             <div class="card-body">
                 <h3 itemprop="name" class="card-title text-center">{{ producto.nombre }}</h3>
-                <p class="card-text pvp">{{ producto.pvp }}</p>
-                <p class="oferta">Oferta!</p>
-                <p itemprop="price" class="card-text precio">{{ producto.precio }}</p>
+                <div itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+                    <p class="card-text pvp">{{ producto.pvp }}</p>
+                    <p class="oferta">Oferta!</p>
+                    <p itemprop="price" class="card-text precio">{{ producto.precio }}</p>
+                </div>
                 <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas1 }}</p>
                 <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas2 }}</p>
                 <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas3 }}</p>
                 <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas4 }}</p>
+
+                <a class="btn btn-primary btn-lg btn-block" href="https://api.whatsapp.com/send?phone=+573043758916&text=Hola quiero ampliar la información de {{ producto.nombre }}" role="button ">Ordena aqui</a>
             </div>
-            <a class="btn btn-primary btn-lg btn-block" href="https://api.whatsapp.com/send?phone=+573043758916&text=Hola quiero ampliar la información de {{ producto.nombre }}" role="button ">Ordena aqui</a>
         </div>
     </div>
 
@@ -90,9 +99,11 @@
             <img itemprop="image" src="{{ producto.imagen }}" class="card-img-top" alt="{{ producto.nombre }}">
             <div class="card-body">
                 <h3 itemprop="name" class="card-title text-center">{{ producto.nombre }}</h3>
-                <p class="card-text pvp">{{ producto.pvp }}</p>
-                <p class="oferta">Oferta!</p>
-                <p itemprop="price" class="card-text precio">{{ producto.precio }}</p>
+                <div itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+                    <p class="card-text pvp">{{ producto.pvp }}</p>
+                    <p class="oferta">Oferta!</p>
+                    <p itemprop="price" class="card-text precio">{{ producto.precio }}</p>
+                </div>
                 <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas1 }}</p>
                 <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas2 }}</p>
                 <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas3 }}</p>
@@ -101,20 +112,24 @@
             <a class="btn btn-primary btn-lg btn-block" href="https://api.whatsapp.com/send?phone=+573043758916&text=Hola quiero ampliar la información de {{ producto.nombre }}" role="button ">Ordena aqui</a>
         </div>
     </div>
+
 
     <div class="m-5">
         <a class="btn btn-success btn-lg btn-block todosprod" [routerLink]="['/productos']" role="button ">Ver Todos los Productos</a>
     </div>
 
     <h2 class="promo">PROMOCIONES DEL MES</h2>
+
     <div itemscope itemtype="http://schema.org/Product" class="card-deck m-5">
-        <div class="card" *ngFor="let producto of productos | slice:57:60; let i=index;">
+        <div class="card" *ngFor="let producto of productos | slice:56:59; let i=index;">
             <img itemprop="image" src="{{ producto.imagen }}" class="card-img-top" alt="{{ producto.nombre }}">
             <div class="card-body">
                 <h3 itemprop="name" class="card-title text-center">{{ producto.nombre }}</h3>
-                <p class="card-text pvp">{{ producto.pvp }}</p>
-                <p class="oferta">Oferta!</p>
-                <p itemprop="price" class="card-text precio">{{ producto.precio }}</p>
+                <div itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+                    <p class="card-text pvp">{{ producto.pvp }}</p>
+                    <p class="oferta">Oferta!</p>
+                    <p itemprop="price" class="card-text precio">{{ producto.precio }}</p>
+                </div>
                 <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas1 }}</p>
                 <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas2 }}</p>
                 <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas3 }}</p>
@@ -124,14 +139,19 @@
         </div>
     </div>
 
+
+
     <div itemscope itemtype="http://schema.org/Product" class="card-deck m-5">
-        <div class="card" *ngFor="let producto of productos | slice:60:62; let i=index;">
+
+        <div class="card" *ngFor="let producto of productos | slice:59:61; let i=index;">
             <img itemprop="image" src="{{ producto.imagen }}" class="card-img-top" alt="{{ producto.nombre }}">
             <div class="card-body">
                 <h3 itemprop="name" class="card-title text-center">{{ producto.nombre }}</h3>
-                <p class="card-text pvp">{{ producto.pvp }}</p>
-                <p class="oferta">Oferta!</p>
-                <p itemprop="price" class="card-text precio">{{ producto.precio }}</p>
+                <div itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+                    <p class="card-text pvp">{{ producto.pvp }}</p>
+                    <p class="oferta">Oferta!</p>
+                    <p itemprop="price" class="card-text precio">{{ producto.precio }}</p>
+                </div>
                 <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas1 }}</p>
                 <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas2 }}</p>
                 <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas3 }}</p>
@@ -141,17 +161,18 @@
         </div>
     </div>
 
-</div>
 
-<div class="alert alert-primary" role="alert" style="background-color: rgb(66, 128, 179); color: white; text-align: justify;">
-    <h4 class="alert-heading" style="font-size: 50px;">¿Deseas afiliarte a 4Life?</h4>
-    <p><small style="font-size: 20px;">(Afiliacion tiene un costo de 66000 pesos)</small></p>
-    <p style="font-size: 30px;">Para obtener tu propio código 4life® y acceder a grandes descuentos, promociones y beneficios de por vida </p>
-    <hr>
-    <a href="https://colombia.4life.com/7980950/signup/distributor" target="_blank" class="alert-link" style="color: #7cda24; font-size: 40px;">INSCRIBETE AQUÍ </a>
-</div>
 
-<form class="m-5 formulario" style="color: white;" novalidate (ngSubmit)="guardar(forma)" #forma="ngForm" action=C:\wamp64\www\enviar-correo\formulario.php method="POST">
+
+    <div class="alert alert-primary" role="alert" style="background-color: rgb(66, 128, 179); color: white; text-align: justify;">
+        <h4 class="alert-heading" style="font-size: 50px;">¿Deseas afiliarte a 4Life?</h4>
+        <p><small style="font-size: 20px;">(Afiliacion tiene un costo de 66000 pesos)</small></p>
+        <p style="font-size: 30px;">Para obtener tu propio código 4life® y acceder a grandes descuentos, promociones y beneficios de por vida </p>
+        <hr>
+        <a href="https://colombia.4life.com/7980950/signup/distributor" target="_blank" class="alert-link" style="color: #7cda24; font-size: 40px;">INSCRIBETE AQUÍ </a>
+    </div>
+
+    <!-- <form class="m-5 formulario" style="color: white;" novalidate (ngSubmit)="guardar()" #forma="ngForm" action=formulario.php method="POST">
     <h4 style="text-align: center;">¿Te gustaría recibir información y mantenerte actualizado con nuestras promociones?</h4>
     <h4 style="text-align: center;">Déjanos tus datos y te mantendremos informado</h4>
     <hr>
@@ -187,32 +208,34 @@
         </div>
     </div>
     <button type="submit" class="btn btn-primary btn-block" style="margin-bottom: 30px; margin-top: 20px;" [disabled]=!forma.valid>Enviar</button>
-</form>
+</form> -->
 
-<!--Start Script de Jquery -->
-<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-<!--End Script de Jquery -->
+    <iframe class="formulariogoogle" src="https://docs.google.com/forms/d/e/1FAIpQLSdd2cIYDVkjgg1CCuj9R53WgmVpvFNTY_TI-Al3VbTTERJb2A/viewform?embedded=true" width="425" height="840" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
 
-<!--Script de Ajax-->
-<script type="text/javascript">
-    function guardar() {
-        var nombre = $("nombre");
-        var email = $("email");
-        var mensaje = $("mensaje");
+    <!--Start Script de Jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <!--End Script de Jquery -->
 
-        $.ajax({
-            url: 'formulario.php',
-            method: 'POST',
-            dataType: 'json',
-            data: {
-                nombre: nombre.val(),
-                email: email.val(),
-                mensaje: mensaje.val(),
-            },
-            success: function(response) {
-                console.log(response);
-            }
-        })
-    }
-</script>
-<!--Script de Ajax-->
+    <!--Script de Ajax-->
+    <script type="text/javascript">
+        function guardar() {
+            var nombre = $("nombre");
+            var email = $("email");
+            var mensaje = $("mensaje");
+
+            $.ajax({
+                url: 'formulario.php',
+                method: 'POST',
+                dataType: 'json',
+                data: {
+                    nombre: nombre.val(),
+                    email: email.val(),
+                    mensaje: mensaje.val(),
+                },
+                success: function(response) {
+                    console.log(response);
+                }
+            })
+        }
+    </script>
+    <!--Script de Ajax-->
