@@ -75,7 +75,7 @@
 
     <div itemscope itemtype="http://schema.org/Product" class="card-deck m-5">
 
-        <div class="card" *ngFor="let producto of productos | slice:14:17; let i=index;">
+        <div class="card" *ngFor="let producto of productos | slice:13:16; let i=index;">
             <img itemprop="image" src="{{ producto.imagen }}" class="card-img-top" alt="{{ producto.nombre }}">
             <div class="card-body">
                 <h3 itemprop="name" class="card-title text-center">{{ producto.nombre }}</h3>
@@ -88,14 +88,13 @@
                 <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas2 }}</p>
                 <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas3 }}</p>
                 <p itemprop="description" class="card-text text-justify">{{ producto.caracteristicas4 }}</p>
-
-                <a class="btn btn-primary btn-lg btn-block" href="https://api.whatsapp.com/send?phone=+573043758916&text=Hola quiero ampliar la información de {{ producto.nombre }}" role="button ">Ordena aqui</a>
             </div>
+            <a class="btn btn-primary btn-lg btn-block" href="https://api.whatsapp.com/send?phone=+573043758916&text=Hola quiero ampliar la información de {{ producto.nombre }}" role="button ">Ordena aqui</a>
         </div>
     </div>
 
     <div itemscope itemtype="http://schema.org/Product" class="card-deck m-5">
-        <div class="card" *ngFor="let producto of productos | slice:40:43; let i=index;">
+        <div class="card" *ngFor="let producto of productos | slice:39:42; let i=index;">
             <img itemprop="image" src="{{ producto.imagen }}" class="card-img-top" alt="{{ producto.nombre }}">
             <div class="card-body">
                 <h3 itemprop="name" class="card-title text-center">{{ producto.nombre }}</h3>
@@ -121,7 +120,7 @@
     <h2 class="promo">PROMOCIONES DEL MES</h2>
 
     <div itemscope itemtype="http://schema.org/Product" class="card-deck m-5">
-        <div class="card" *ngFor="let producto of productos | slice:56:59; let i=index;">
+        <div class="card" *ngFor="let producto of productos | slice:55:58; let i=index;">
             <img itemprop="image" src="{{ producto.imagen }}" class="card-img-top" alt="{{ producto.nombre }}">
             <div class="card-body">
                 <h3 itemprop="name" class="card-title text-center">{{ producto.nombre }}</h3>
@@ -143,7 +142,7 @@
 
     <div itemscope itemtype="http://schema.org/Product" class="card-deck m-5">
 
-        <div class="card" *ngFor="let producto of productos | slice:59:61; let i=index;">
+        <div class="card" *ngFor="let producto of productos | slice:58:60; let i=index;">
             <img itemprop="image" src="{{ producto.imagen }}" class="card-img-top" alt="{{ producto.nombre }}">
             <div class="card-body">
                 <h3 itemprop="name" class="card-title text-center">{{ producto.nombre }}</h3>
@@ -162,9 +161,24 @@
     </div>
 
 
+    <div class="card bg-dark inscribete" style="text-align: center; margin-bottom: 100px;">
+        <img src="assets/beneficios.jpg" class="card-img" alt="Beneficios" height="900" style="opacity: 1;">
+        <div class="card-img-overlay">
+            <h2 class="card-title">Únete a la familia 4Life<br>Para obtener tu propio código y acceder a grandes descuentos, promociones y beneficios</h2>
+            <i class="fas fa-users fa-8x" style="margin-bottom: 10px;"></i>
+            <h3 class="card-subtitle mb-2">Los Consumidores Preferentes ahorran en grande</h3>
+            <br><br>
+            <li class="card-text " style="font-size: larger; list-style-type: none;"><i class="far fa-check-circle" style="color: #00a1e1;"></i><strong style="margin-left: 10px;">25% de descuento en productos</strong><br>Disfruta de grandes ahorros a través del precio mayorista</li>
+            <br><br>
+            <li class="card-text" style="font-size: larger; list-style-type: none;"><i class="far fa-check-circle" style="color: #00a1e1;"></i><strong style="margin-left: 10px;">Beneficios del Programa de Lealtad de 4Life</strong><br>Obtén Puntos Redimibles para productos y el producto de Lealtad del Mes</li>
+            <br><br>
+            <li class="card-text" style="font-size: larger; list-style-type: none;"><i class="far fa-check-circle" style="color: #00a1e1;"></i><strong style="margin-left: 10px;">Descuento instantáneo</strong><br>Recibe un descuento instantáneo del 25% al finalizar tu compra en el volumen personal superior a 100 LP</li>
+            <br><br>
+            <a href="https://colombia.4life.com/7980950/signup/distributor" target="_blank" class="btn btn-primary btn-lg btn-block boton-inscripcion" style="box-shadow: rgba(230, 230, 230, 0.26) 3px 3px;">Inscríbete por solo $66.000 COP</a>
+        </div>
+    </div>
 
-
-    <div class="alert alert-primary" role="alert" style="background-color: rgb(66, 128, 179); color: white; text-align: justify;">
+    <!--<div class="alert alert-primary" role="alert" style="background-color: rgb(66, 128, 179); color: white; text-align: justify;">
         <h4 class="alert-heading" style="font-size: 50px;">¿Deseas afiliarte a 4Life?</h4>
         <p><small style="font-size: 20px;">(Afiliacion tiene un costo de 66000 pesos)</small></p>
         <p style="font-size: 30px;">Para obtener tu propio código 4life® y acceder a grandes descuentos, promociones y beneficios de por vida </p>
@@ -172,7 +186,7 @@
         <a href="https://colombia.4life.com/7980950/signup/distributor" target="_blank" class="alert-link" style="color: #7cda24; font-size: 40px;">INSCRIBETE AQUÍ </a>
     </div>
 
-    <!-- <form class="m-5 formulario" style="color: white;" novalidate (ngSubmit)="guardar()" #forma="ngForm" action=formulario.php method="POST">
+     <form class="m-5 formulario" style="color: white;" novalidate (ngSubmit)="guardar()" #forma="ngForm" action=formulario.php method="POST">
     <h4 style="text-align: center;">¿Te gustaría recibir información y mantenerte actualizado con nuestras promociones?</h4>
     <h4 style="text-align: center;">Déjanos tus datos y te mantendremos informado</h4>
     <hr>

@@ -91,8 +91,8 @@ export class ProductosService {
 
 {
       nombre: 'RiteStart® Mujer',
-      pvp: '$349.000,00',
-      precio: '$262.000,00',
+      pvp: '$380.000,00',
+      precio: '$285.000,00',
       imagen: 'assets/img/Rite-Start-Women-1.jpg',
       caracteristicas1: '• Respalda el sistema inmunitario con el poder de 4Life® Transfer Factor Plus® Tri-Factor® Formula*',
       caracteristicas2: ' • Provee respaldo específico para el sistema femenino*',
@@ -103,8 +103,8 @@ export class ProductosService {
 
 {
       nombre: 'RiteStart® Hombre',
-      pvp: '$349.000,00',
-      precio: '$262.000,00',
+      pvp: '$380.000,00',
+      precio: '$285.000,00',
       imagen: 'assets/img/Rite-Start-Men-1.jpg',
       caracteristicas1: '• Respalda el sistema inmunitario con el poder de 4Life® Transfer Factor Plus® Tri-Factor® Formula*',
       caracteristicas2: ' • Provee respaldo específico para el sistema masculino*',
@@ -127,8 +127,8 @@ export class ProductosService {
 
 {
       nombre: 'RiteStart® Niños y Adolescentes',
-      pvp: '$277.000,00',
-      precio: '$208.000,00',
+      pvp: '$293.000,00',
+      precio: '$220.000,00',
       imagen: 'assets/img/Rite-Start-Kids-1.jpg',
       caracteristicas1: '• Respalda los huesos fuertes, la función muscular y la visión saludable*',
       caracteristicas2: ' • Contiene 22 vitaminas y minerales esenciales*',
@@ -161,8 +161,8 @@ export class ProductosService {
 
 {
       nombre: 'Transfer Factor Cardio',
-      pvp: '$310.500,00',
-      precio: '$233.000,00',
+      pvp: '$326.500,00',
+      precio: '$245.000,00',
       imagen: 'assets/img/TF-Cardio-1.jpg',
       caracteristicas1: '• Contiene 4Life Transfer Factor® certificado para educar las células inmunitarias*',
       caracteristicas2: '• Respalda las funciones cardiovasculares y los niveles saludables de colesterol que ya están en un rango normal*',
@@ -172,8 +172,8 @@ export class ProductosService {
 
 {
       nombre: 'Transfer Factor® ReCall®',
-      pvp: '$297.000,00',
-      precio: '$223.000,00',
+      pvp: '$320.000,00',
+      precio: '$240.000,00',
       imagen: 'assets/img/TF-Recall-1.jpg',
       caracteristicas1: '•Contiene 4Life Transfer Factor® certificado para educar las células inmunitarias*',
       caracteristicas2: '•Promueve la función saludable del cerebro a través del respaldo de la circulación de la sangre*',
@@ -183,8 +183,8 @@ export class ProductosService {
 
 {
       nombre: 'Glutamine Prime®',
-      pvp: '$224.000,00',
-      precio: '$168.000,00',
+      pvp: '$240.000,00',
+      precio: '$180.000,00',
       imagen: 'assets/img/Glutamine-Prime-1.jpg',
       caracteristicas1: '•Abastece de energía a las células inmunitarias con glutamina, un importante aminoácido*',
       caracteristicas2: '•Mejora la comunicación entre las células inmunitarias con el extracto de NanoFactor® para una respuesta inmunitaria más coordinada en ocasiones de estrés*',
@@ -194,8 +194,8 @@ export class ProductosService {
 
 {
       nombre: ' Transfer Factor® KBU®',
-      pvp: '$284.000,00',
-      precio: '$213.000,00',
+      pvp: '$300.000,00',
+      precio: '$225.000,00',
       imagen: 'assets/img/TF-KBU-1.jpg',
       caracteristicas1: ' •Contiene 4Life Transfer Factor® certificado para educar las células inmunitarias*',
       caracteristicas2: ' •Respalda la vejiga con ingredientes limpiadores como arándano, moras azules, lingonberry y manosa*',
@@ -206,8 +206,8 @@ export class ProductosService {
 
 {
       nombre: ' Transfer Factor® MalePro®',
-      pvp: '$284.000,00',
-      precio: '$213.000,00',
+      pvp: '$300.000,00',
+      precio: '$225.000,00',
       imagen: 'assets/img/TF-Malepro-1.jpg',
       caracteristicas1: ' • Contiene 4Life Transfer Factor® certificado para educar las células inmunitarias*',
       caracteristicas2: ' •Respalda la salud de la próstata con una mezcla sinérgica de palma enana Americana, licopeno, isoflavones, extracto de broccoli y antioxidantes*',
@@ -249,8 +249,8 @@ export class ProductosService {
 
 {
       nombre: ' Transfer Factor® Colageno',
-      pvp: '$219.000,00',
-      precio: '$164.000,00',
+      pvp: '$235.000,00',
+      precio: '$176.000,00',
       imagen: 'assets/img/Colageno.jpg',
       caracteristicas1: '• Ayuda a reponer los niveles de colágeno para respaldar las articulaciones, los músculos y la piel saludables*',
       caracteristicas2: ' • Respalda la función del sistema inmunitario con 4Life Transfer Factor*',
@@ -270,8 +270,8 @@ export class ProductosService {
 
     {
       nombre: ' BioEFA™ with CLA',
-      pvp: '$169.000,00',
-      precio: '$127.000,00',
+      pvp: '$180.000,00',
+      precio: '$135.000,00',
       imagen: 'assets/img/Bioefa-1.jpg',
       caracteristicas1: '• Contiene potentes ácidos grasos omega-3 y omega-6 provenientes de aceite de pescado, aceite de semilla de borraja, aceite de linaza aceite de girasol',
       caracteristicas2: '• Promueve la salud general del sistema cardiovascular y las membranas celulares fuertes*',
@@ -282,8 +282,8 @@ export class ProductosService {
 
 {
       nombre: ' Bountiful Harvest',
-      pvp: '$224.000,00',
-      precio: '$168.000,00',
+      pvp: '$240.000,00',
+      precio: '$180.000,00',
       imagen: 'assets/img/Bountiful-Harvest-Plus-1.jpg',
       caracteristicas1: '• Contiene concentrados densos en nutrientes provenientes de alga verde-azul y espirulina',
       caracteristicas2: ' • Provee concentrados de vitaminas, minerales y otros fitonutrientes',
@@ -303,8 +303,8 @@ export class ProductosService {
 
 {
       nombre: ' Flex4Life® – cápsulas',
-      pvp: '$217.000,00',
-      precio: '$163.000,00',
+      pvp: '$233.000,00',
+      precio: '$175.000,00',
       imagen: 'assets/img/Flex-capsulas-1.jpg',
       caracteristicas1: '• Respalda tejido articular saludable, y la flexibilidad de las coyunturas en general*',
       caracteristicas2: ' • Ayuda a mantener la movilidad para un rango de movimiento más completo*',
@@ -315,8 +315,8 @@ export class ProductosService {
 
 {
       nombre: ' Flex4Life™ – crema',
-      pvp: '$162.000,00',
-      precio: '$122.000,00',
+      pvp: '$178.000,00',
+      precio: '$134.000,00',
       imagen: 'assets/img/Flex-crema-1.jpg',
       caracteristicas1: '• Combina mentol, extracto de menta y vitamina E natural',
       caracteristicas2: ' • Ofrece respaldo para los músculos y las articulaciones cuando lo combinas con las Flex4Life® cápsulas*',
@@ -326,8 +326,8 @@ export class ProductosService {
 
 {
       nombre: ' BioGenistein Ultra®',
-      pvp: '$197.000,00',
-      precio: '$148.000,00',
+      pvp: '$213.000,00',
+      precio: '$160.000,00',
       imagen: 'assets/img/Biogenistein-Ultra-1.jpg',
       caracteristicas1: '• Contiene isoflavonas de soya, cohosh negro y árbol casto para promover la salud femenina y los niveles hormonales saludables*',
       caracteristicas2: ' • Respalda un estado de ánimo positivo con cohosh negro, l-teanina y árbol casto*',
@@ -337,8 +337,8 @@ export class ProductosService {
 
 {
       nombre: ' CM Super™',
-      pvp: '$150.000,00',
-      precio: '$113.000,00',
+      pvp: '$160.000,00',
+      precio: '$120.000,00',
       imagen: 'assets/img/CM-Super-1.jpg',
       caracteristicas1: '• Contiene una poderosa ración diaria de más de 600 mg de calcio, 2000 IU de vitamina D y 270 mg de magnesio',
       caracteristicas2: ' • Respalda el crecimiento y la salud de los huesos en las personas de todas las edades*',
@@ -348,8 +348,8 @@ export class ProductosService {
 
 {
       nombre: ' Fibro AMJ® Fórmula Diurna',
-      pvp: '$193.000,00',
-      precio: '$145.000,00',
+      pvp: '$209.000,00',
+      precio: '$157.000,00',
       imagen: 'assets/img/Fibro-AMJ-1.jpg',
       caracteristicas1: '• Contiene poderosos metabolitos—magnesio y ácido málico—para respaldar la producción de energía*',
       caracteristicas2: ' • Incluye clorhidrato de glucosamina y and metilsulfonilmetano (MSM) para el respaldo de las articulaciones*',
@@ -359,8 +359,8 @@ export class ProductosService {
 
 {
       nombre: ' SleepRite AMJ®',
-      pvp: '$193.000,00',
-      precio: '$145.000,00',
+      pvp: '$209.000,00',
+      precio: '$157.000,00',
       imagen: 'assets/img/SleepRite-AMJ-1.jpg',
       caracteristicas1: '• Contiene raíz valeriana para respaldar el balance del sistema nervioso*',
       caracteristicas2: ' • Incluye menta para aliviar el malestar del estómago asociado con el estrés*',
@@ -370,8 +370,8 @@ export class ProductosService {
 
 {
       nombre: ' Multiplex™',
-      pvp: '$169.000,00',
-      precio: '$127.000,00',
+      pvp: '$180.000,00',
+      precio: '$135.000,00',
       imagen: 'assets/img/Multiplex-1.jpg',
       caracteristicas1: '• Contiene 21 vitaminas y minerales esenciales para la salud y el bienestar general*',
       caracteristicas2: '• Contiene extractos herbales y bioflavonoides cítricos para impulsar los niveles de energía*',
@@ -381,8 +381,8 @@ export class ProductosService {
 
 {
       nombre: ' MusculoSkeletal Formula™',
-      pvp: '$184.000,00',
-      precio: '$138.000,00',
+      pvp: '$193.000,00',
+      precio: '$145.000,00',
       imagen: 'assets/img/Musculo-Skeletal-1.jpg',
       caracteristicas1: '• Contiene ingredientes claves que respaldan la reparación de los músculos*',
       caracteristicas2: '• Incluye ingredientes que respaldan los tejidos suaves de los músculos, tendones, ligamentos y nervios sobrecargados*',
@@ -392,8 +392,8 @@ export class ProductosService {
 
 {
       nombre: ' Stress Formula™',
-      pvp: '$169.000,00',
-      precio: '$127.000,00',
+      pvp: '$180.000,00',
+      precio: '$135.000,00',
       imagen: 'assets/img/Stress-Formula-1.jpg',
       caracteristicas1: '• Contiene raíz valeriana para respaldar el balance del sistema nervioso*',
       caracteristicas2: '• Incluye menta para aliviar el malestar del estómago asociado con el estrés*',
@@ -403,8 +403,8 @@ export class ProductosService {
 
 {
       nombre: 'Gurmar',
-      pvp: '$162.000,00',
-      precio: '$122.000,00',
+      pvp: '$170.000,00',
+      precio: '$130.000,00',
       imagen: 'assets/img/Gurmar-1.jpg',
       caracteristicas1: '• Respalda el sistema endocrino para balancear los niveles saludables de glucosa en el cuerpo*',
       caracteristicas2: '• Ofrece gurmar, o Gymnema sylvestre, para ayudar a mantener los niveles saludables de glucosa*',
@@ -413,8 +413,8 @@ export class ProductosService {
 
 {
       nombre: ' Inner Sun®',
-      pvp: '$193.000,00',
-      precio: '$145.000,00',
+      pvp: '$206.000,00',
+      precio: '$155.000,00',
       imagen: 'assets/img/Inner-Sun-1.jpg',
       caracteristicas1: '• Contiene una mezcla de hierba de San Juan, manzanilla, romero y Espino para promover un estado de ánimo positivo*',
       caracteristicas2: '• Incluye un potente complejo de vitamina B para respaldar los niveles de energía saludables*',
@@ -423,8 +423,8 @@ export class ProductosService {
 
 {
       nombre: ' Life C®',
-      pvp: '$150.000,00',
-      precio: '$113.000,00',
+      pvp: '$160.000,00',
+      precio: '$120.000,00',
       imagen: 'assets/img/Life-C-1.jpg',
       caracteristicas1: '• Contiene siete formas activas de vitamina C natural',
       caracteristicas2: '• Respalda las funciones antioxidantes y el funcionamiento saludable de varios sistemas del cuerpo*',
@@ -434,8 +434,8 @@ export class ProductosService {
 
 {
       nombre: ' Choice 50®',
-      pvp: '$217.000,00',
-      precio: '$163.000,00',
+      pvp: '$233.000,00',
+      precio: '$175.000,00',
       imagen: 'assets/img/Choice-50-1.jpg',
       caracteristicas1: '• Ofrece una mezcla de potentes antioxidantes, incluyendo extracto de semillas de uva*',
       caracteristicas2: '• Respalda la salud del sistema cardiovascular y circulatorio*',
@@ -443,21 +443,11 @@ export class ProductosService {
       linea: 'bienestar',
     },
 
-{
-      nombre: ' Male Formula™',
-      pvp: '$169.000,00',
-      precio: '$127.000,00',
-      imagen: 'assets/img/Male-Formula-1.jpg',
-      caracteristicas1: '• Respalda las funciones sexuales saludables, los niveles de energía y la fuerza*',
-      caracteristicas2: '• Contiene zinc para las necesidades nutricionales únicas de los hombres*',
-      caracteristicas3: '• Incluye Tribulus terrestris para respaldo antioxidante*',
-      linea: 'bienestar',
-    },
 
 {
       nombre: ' Aloe Vera',
-      pvp: '$230.000,00',
-      precio: '$173.000,00',
+      pvp: '$247.000,00',
+      precio: '$185.000,00',
       imagen: 'assets/img/Aloe-Vera-1.jpg',
       caracteristicas1: '• Respalda la recuperación de las dietas desintoxicantes y de las limpiezas intestinales con electrolitos y una mayor absorción de vitaminas*',
       caracteristicas2: '• Promueve el funcionamiento gastrointestinal saludable*',
@@ -467,8 +457,8 @@ export class ProductosService {
 
 {
       nombre: ' Pre/o Biotics™',
-      pvp: '$237.000,00',
-      precio: '$178.000,00',
+      pvp: '$240.000,00',
+      precio: '$180.000,00',
       imagen: 'assets/img/Preobiotics-1.jpg',
       caracteristicas1: '• Promueve el crecimiento de la flora intestinal beneficiosa con cinco cepas de probióticos ampliamente investigados*',
       caracteristicas2: '• Contiene tres tipos de prebióticos para optimizar el crecimiento de los probióticos saludables*',
@@ -479,8 +469,8 @@ export class ProductosService {
 
 {
       nombre: 'Digestive Enzymes',
-      pvp: '$197.000,00',
-      precio: '$148.000,00',
+      pvp: '$213.000,00',
+      precio: '$160.000,00',
       imagen: 'assets/img/Enzimas-Digestivas-1.jpg',
       caracteristicas1: '• Respalda la digestión saludable de la comida*',
       caracteristicas2: '• Reduce las molestias asociadas con la digestión de la comida*',
@@ -490,8 +480,8 @@ export class ProductosService {
 
 {
       nombre: 'Super Detox®',
-      pvp: '$193.000,00',
-      precio: '$145.000,00',
+      pvp: '$209.000,00',
+      precio: '$157.000,00',
       imagen: 'assets/img/Super-Detox-1.jpg',
       caracteristicas1: '• Incluye cardo de leche, conocido por el respaldo ofrecido para la función del hígado*',
       caracteristicas2: '• Contiene trébol rojo y alcachofa para ayudar en la desintoxicación y fortalecimiento del hígado*',
@@ -501,8 +491,8 @@ export class ProductosService {
 
 {
       nombre: 'Fibre System Plus™',
-      pvp: '$184.000,00',
-      precio: '$138.000,00',
+      pvp: '$207.000,00',
+      precio: '$155.000,00',
       imagen: 'assets/img/Fibre-System-Plus-1.jpg',
       caracteristicas1: '• Contiene 24 ingredientes herbales para proveer una limpieza y purificación intestinal profunda pero placentera*',
       caracteristicas2: '• Provee una excelente limpieza gastrointestinal para comenzar cualquier régimen nutricional*',
@@ -521,8 +511,8 @@ export class ProductosService {
 
 {
       nombre: 'PhytoLax®',
-      pvp: '$169.000,00',
-      precio: '$127.000,00',
+      pvp: '$180.000,00',
+      precio: '$135.000,00',
       imagen: 'assets/img/Phytolax-1.jpg',
       caracteristicas1: '• Contiene hierbas como la cáscara sagrada y jengibre para activar la eliminación digestiva de forma segura*',
       caracteristicas2: '• Promueve la regularidad saludable*',
@@ -532,8 +522,8 @@ export class ProductosService {
 
 {
       nombre: 'Tea4Life®',
-      pvp: '$157.000,00',
-      precio: '$118.000,00',
+      pvp: '$173.000,00',
+      precio: '$130.000,00',
       imagen: 'assets/img/Tea-4Life-1.jpg',
       caracteristicas1: '• Contiene hierbas para respaldar la salud del colon*',
       caracteristicas2: '• Ofrece una alternativa herbal para una limpieza intestinal saludable*',
@@ -553,8 +543,8 @@ export class ProductosService {
 
 {
       nombre: 'MetaboLite™',
-      pvp: '$184.000,00',
-      precio: '$138.000,00',
+      pvp: '$200.000,00',
+      precio: '$150.000,00',
       imagen: 'assets/img/Metabolite-1.jpg',
       caracteristicas1: '• Promueve una tiroides saludable*',
       caracteristicas2: '• Contiene enzimas de papaya y piña para respaldar las funciones del sistema digestivo*',
@@ -564,8 +554,8 @@ export class ProductosService {
 
 {
       nombre: 'ChitoLite®',
-      pvp: '$169.000,00',
-      precio: '$127.000,00',
+      pvp: '$180.000,00',
+      precio: '$135.000,00',
       imagen: 'assets/img/Chitolite-1.jpg',
       caracteristicas1: '• Respalda el control de peso al comprimir la grasa antes de que tu cuerpo la absorba*',
       caracteristicas2: '• Incorpora tecnología patentada para comprimir una cantidad significativamente mayor de grasa que el quitosano estándar*',
@@ -607,8 +597,8 @@ export class ProductosService {
 
 {
       nombre: 'Transform Burn®',
-      pvp: '$284.000,00',
-      precio: '$213.000,00',
+      pvp: '$300.000,00',
+      precio: '$225.000,00',
       imagen: 'assets/img/Burn-1.jpg',
       caracteristicas1: '• Respalda una forma acelerada para la transformación de tu cuerpo al impulsar la quema de grasas y disminuir el apetito*',
       caracteristicas2: '• Ayuda a los adultos de todas las edades a alcanzar un cuerpo más delgado, esbelto y saludable*',
@@ -619,8 +609,8 @@ export class ProductosService {
 
 {
       nombre: 'Transform® Hombre',
-      pvp: '$224.000,00',
-      precio: '$168.000,00',
+      pvp: '$240.000,00',
+      precio: '$180.000,00',
       imagen: 'assets/img/Man-1.jpg',
       caracteristicas1: '• Respalda el rendimiento sexual saludable*',
       caracteristicas2: '• Aumenta la resistencia física*',
@@ -631,8 +621,8 @@ export class ProductosService {
 
 {
       nombre: 'Transform® Mujer',
-      pvp: '$224.000,00',
-      precio: '$168.000,00',
+      pvp: '$240.000,00',
+      precio: '$180.000,00',
       imagen: 'assets/img/Woman-1.jpg',
       caracteristicas1: '• Respalda la transformación del cuerpo para una vida más juvenil y activa*',
       caracteristicas2: '• Diseñado específicamente para la mujer',

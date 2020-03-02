@@ -62,4 +62,15 @@
         flex: 0 0 30%;
         max-width: 30%;
     }
+    .inscribete {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+    .boton-inscripcion {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+    .inscribete h2 {
+        padding-top: 3rem;
+    }
 }
