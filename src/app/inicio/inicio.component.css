@@ -92,6 +92,18 @@
         border: 2px solid red;
     }
     
+    .inscribete {
+        height: 1100px;
+    }
+    
+    .inscribete img {
+        height: inherit;
+    }
+    
+    .formago {
+        text-align: center;
+    }
+    
     @media screen and (min-width: 500px) {
         .banner {
             font-size: 40px;
@@ -161,6 +173,9 @@
         }
         .inscribete h2 {
             padding-top: 3rem;
+        }
+        .inscribete {
+            height: 900px;
         }
     }
     

@@ -8,6 +8,7 @@ import { BienestarComponent } from './bienestar/bienestar.component';
 import { DigestivaComponent } from './digestiva/digestiva.component';
 import { PesoComponent } from './peso/peso.component';
 import { TransformComponent } from './transform/transform.component';
+import { VictorComponent } from './victor/victor.component';
 
 
 const routes: Routes = [
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'bienestar', component: BienestarComponent},
   { path: 'digestiva', component: DigestivaComponent},
   { path: 'peso', component: PesoComponent},
+  { path: 'victor', component: VictorComponent},
   { path: 'transform', component: TransformComponent},
   { path: '**', pathMatch: 'full', redirectTo: 'inicio'},
 ];

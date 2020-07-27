@@ -14,6 +14,7 @@ export class ProductosComponent implements OnInit {
 
   ngOnInit() {
     this.productos = this.productosService.getProducto();
+    window.scrollTo(0, 0);
   }
 
 }

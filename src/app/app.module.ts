@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule} from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProductosService } from './services/productos.service';
@@ -14,6 +14,7 @@ import { BienestarComponent } from './bienestar/bienestar.component';
 import { DigestivaComponent } from './digestiva/digestiva.component';
 import { PesoComponent } from './peso/peso.component';
 import { TransformComponent } from './transform/transform.component';
+import { VictorComponent } from './victor/victor.component';
 
 @NgModule({
   declarations: [
@@ -26,12 +27,15 @@ import { TransformComponent } from './transform/transform.component';
     BienestarComponent,
     DigestivaComponent,
     PesoComponent,
-    TransformComponent
+    TransformComponent,
+    VictorComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
   ],
   providers: [
     ProductosService,
